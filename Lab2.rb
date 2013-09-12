@@ -81,6 +81,7 @@ def rps_game_winner(game)
          end
 
   puts winner
+  return winner
 end
 
 def rps_tournament_winner(tournament)

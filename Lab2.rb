@@ -30,7 +30,9 @@ puts palindrome?("Abracadabra")
 
 def count_words(string)
   res = Hash.new(0)
-  string.downcase.scan(/\w+/).map{|word| res[word] = string.downcase.scan(/\b#{word}\b/).size}
+  string = string.downcase
+  words = string.split(/\W+/)
+  words.each { |word| res[word] +=1}
   return res
 end
 

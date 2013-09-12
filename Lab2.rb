@@ -1,3 +1,4 @@
+#https://github.com/CzarcasticJack/lab2/blob/master/Lab2.rb
 # Part1: Hello World
 class HelloWorldClass
   def initialize(name)
